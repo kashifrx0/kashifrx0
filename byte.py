@@ -1,7 +1,3 @@
-# ============================================================
-# RAFIN's Encryption Utilities - Free Fire Protocol Helpers
-# ============================================================
-
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad,unpad
 
@@ -157,7 +153,17 @@ def Encrypt(x):
             return dec[int(y)]+xxx[int(x)]
 
 
-# ========== RAFIN - Testing decryption and ID encoding ==========
+
+
+
+
+
+
+
+
+
+
+
 print(decrypt_api(b'\xb7C\x1bG\xb8u\x8b\xec\xad\x82\x9c\xa9)\xe3\xde)'.hex()))
 
 print(Encrypt_ID(270279853))
